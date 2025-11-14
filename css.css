@@ -1,0 +1,767 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+  max-width: 600px;   /* límite máximo */
+  margin: 0 auto;     /* centra el contenido horizontalmente */
+  outline: solid 1px black;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none; /* Elimina el subrayado */
+  color:inherit;
+}
+
+.prototipobien {
+  	width: 100%;
+  	position: relative;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	gap: 10px;
+  	text-align: right;
+  	font-size: 16px;
+  	color: #000;
+}
+.fondo {
+  	width: 938px;
+  	margin: 0 !important;
+  	position: absolute;
+  	top: 0px;
+  	left: -289px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	z-index: 0;
+}
+.fondo-child {
+  	align-self: stretch;
+  	height: 1537px;
+  	position: relative;
+  	background: linear-gradient(0deg, #fff, #def2ff 14.9%, #48b9ff 66.83%, #6048ff);
+}
+.fondo-item {
+  	align-self: stretch;
+  	height: 1149px;
+  	position: relative;
+  	background: linear-gradient(0deg, #fff, #def2ff 14.9%, #48b9ff 56.25%, #6048ff 90.76%, #fff), linear-gradient(0deg, #fff, #def2ff 14.9%, #48b9ff 56.25%, #6048ff 87.02%);
+}
+.framecontenidos {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 10px;
+  	z-index: 1;
+}
+.introduccion {
+  	align-self: stretch;
+  	background: linear-gradient(180deg, rgba(72, 185, 255, 0) 10.1%, rgba(222, 242, 255, 0) 50%, rgba(255, 255, 255, 0) 60%, rgba(93, 70, 247, 0) 63.52%, rgba(72, 185, 255, 0) 77.77%, rgba(222, 242, 255, 0) 88.62%, rgba(255, 255, 255, 0));
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 0px 0px 56px;
+  	gap: 10px;
+}
+.logo {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 30px;
+  	gap: 3px;
+  	font-size: 26px;
+}
+.logo-icon {
+  	width: 103px;
+  	position: relative;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.festival-de-sueos {
+  	height: 97px;
+  	width: 194px;
+  	position: relative;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.imagencatch {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 66px 30px 0px;
+  	gap: 7px;
+  	text-align: center;
+}
+.fungus-icon {
+  	width: 137px;
+  	position: relative;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.expande-tu-fase {
+  	align-self: stretch;
+  	position: relative;
+  	font-weight: 500;
+}
+.fecha {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 53px 30px 0px;
+  	gap: 0px;
+  	font-size: 34.3px;
+}
+.div {
+  	position: relative;
+}
+.fecha-child {
+  	height: 2.9px;
+  	flex: 1;
+  	position: relative;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.div2 {
+  	position: relative;
+  	text-align: left;
+}
+.lugaracceso {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 9px 30px 22px;
+  	gap: 20px;
+  	text-align: left;
+}
+.plataforma-de-sueos {
+  	width: 109px;
+  	position: relative;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.acceso-mediante-pulsera {
+  	width: 110px;
+  	position: relative;
+  	font-weight: 500;
+  	text-align: right;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.empieza-sonar {
+  	width: 176.6px;
+  	box-shadow: 0px 2.470588207244873px 2.47px rgba(0, 0, 0, 0.25);
+  	border-radius: 30px;
+  	background-color: #6048ff;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 12px 10px;
+  	box-sizing: border-box;
+  	text-align: center;
+  	color: #fff;
+}
+.empieza-a-soar {
+  	position: relative;
+  	font-weight: 500;
+  	white-space: pre-wrap;
+	color: #fff;
+}
+.contenidos1 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 0px 0px 11px;
+  	text-align: left;
+}
+.salavr-icon {
+  	align-self: stretch;
+  	position: relative;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	object-fit: cover;
+	outline: 1px solid #000;
+
+}
+.textoinformacion {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 42px 30px 0px;
+}
+.actividades1 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 79px 0px 0px;
+  	text-align: center;
+  	font-size: 12.5px;
+}
+.actividades-movil {
+  	height: 148px;
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 9px;
+}
+
+.actividades-movil img {
+	outline: 1px solid #000;
+}
+.actividadimg-icon {
+  	align-self: stretch;
+  	flex: 1;
+  	position: relative;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.textoactividad {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 115.34%;
+  	font-weight: 500;
+}
+.actividades2 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 7px 0px 94px;
+  	text-align: center;
+  	font-size: 12.5px;
+}
+.artistas-destacados {
+  	position: relative;
+  	font-weight: 500;
+  	color: #fff;
+	padding: 5px 0px 30px 0px;
+}
+.artista1 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: flex-start;
+  	justify-content: space-between;
+	padding: 9px 0px;
+  	padding: 47px 0px 0px;
+  	gap: 0px;
+  	font-size: 12.5px;
+  	color: #fff;
+}
+.artista1-icon {
+  	height: 109px;
+  	width: 180px;
+  	position: relative;
+  	object-fit: cover;
+    border: 1px solid #000;
+}
+.textoartistas {
+  	align-self: stretch;
+  	flex: 1;
+  	display: flex;
+	padding: 9px 0px;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 20px 0px 12px;
+}
+.prototipobien-artista1 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: flex-start;
+  	justify-content: space-between;
+	padding: 9px 0px;
+  	gap: 0px;
+  	font-size: 12.5px;
+  	color: #fff;
+}
+.prototipobien-textoartistas {
+  	align-self: stretch;
+  	flex: 1;
+  	display: flex;
+	padding: 9px 0px;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 12px 0px 30px;
+}
+.cta {
+  	align-self: stretch;
+  	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  	border-radius: 30px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 29px 30px 139px;
+  	text-align: center;
+  	color: #5d46f7;
+}
+.prototipobien-fondo {
+  	flex: 1;
+  	width: 100%;
+  	position: relative;
+  	border-radius: 30px;
+  	background-color: #5d45f7;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 23px;
+  	box-sizing: border-box;
+  	cursor: pointer;
+  	text-align: center;
+  	font-size: 16px;
+  	color: #fff;
+  	font-family: Inter;
+}
+.textocta {
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 2px;
+}
+.explora-el-line-up {
+  	position: relative;
+  	font-weight: 500;
+}
+.flecha {
+  	height: 23.7px;
+  	width: 34px;
+  	position: relative;
+}
+.flecha-child {
+  	position: absolute;
+  	top: 11.8px;
+  	left: 0px;
+  	width: 34px;
+  	height: 11.9px;
+}
+.flecha-item {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 34px;
+  	height: 11.9px;
+}
+.envia-sueno {
+  	width: 297px;
+  	display: flex;
+  	align-items: flex-end;
+  	justify-content: space-between;
+  	padding: 0px 0px 19px;
+  	box-sizing: border-box;
+  	gap: 0px;
+}
+.enva-tu-propio {
+  	width: 261px;
+  	position: relative;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.dreamcore-mushroom-2-icon {
+  	width: 36px;
+  	position: relative;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.botonescaner {
+  	width: 220px;
+  	height: 35px;
+  	border-radius: 30px;
+  	background-color: #d9d9d9;
+  	border: 1px solid #000;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 21px;
+}
+.newsletter {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 115px 0px 0px;
+  	gap: 9px;
+  	text-align: center;
+  	font-size: 12.5px;
+}
+.newsletter-exclusiva {
+  	position: relative;
+  	font-size: 16px;
+  	text-decoration: underline;
+  	font-weight: 500;
+  	font-family: Inter;
+  	color: #5d46f7;
+  	text-align: center;
+  	cursor: pointer;
+}
+
+
+.footer1 {
+  	width: 297px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 62px 0px 6px;
+  	box-sizing: border-box;
+  	gap: 10px;
+  	text-align: center;
+  	font-size: 9px;
+}
+
+.footer1 a {
+	color:black
+}
+
+.despertar-seguro {
+  	height: 11px;
+  	width: 76px;
+  	position: relative;
+  	text-decoration: underline;
+  	font-weight: 500;
+  	text-align: right;
+  	display: inline-block;
+  	flex-shrink: 0;
+  	opacity: 0.62;
+}
+.div3 {
+  	position: relative;
+  	font-weight: 500;
+  	opacity: 0.62;
+}
+.trminos-de-sueo {
+  	position: relative;
+  	text-decoration: underline;
+  	font-weight: 500;
+  	opacity: 0.62;
+}
+.poltica-de-descanso {
+  	height: 11px;
+  	width: 89px;
+  	position: relative;
+  	text-decoration: underline;
+  	font-weight: 500;
+  	text-align: right;
+  	display: inline-block;
+  	flex-shrink: 0;
+  	opacity: 0.62;
+}
+.footer2 {
+  	width: 297px;
+  	display: flex;
+  	align-items: flex-start;
+  	justify-content: space-between;
+  	padding: 6px 0px 23px;
+  	box-sizing: border-box;
+  	gap: 17.5px;
+  	text-align: center;
+  	font-size: 9px;
+}
+
+.DreamNet, .Neuralinked, .remgram {
+	opacity: 1;
+	color: #5d46f7;
+}
+.remgram {
+  	height: 11px;
+  	width: 89px;
+  	position: relative;
+  	text-decoration: underline;
+  	font-weight: 500;
+  	text-align: left;
+  	display: inline-block;
+  	flex-shrink: 0;
+	color: #5d46f7;
+}
+.desuscribirse {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 0px 46px;
+  	font-size: 9px;
+	text-align: center;
+	color: black;
+}
+.no-quieres-ms {
+  	width: 380px;
+  	position: relative;
+	text-align: center;
+  	font-size: 9px;
+  	text-decoration: underline;
+  	font-weight: 500;
+  	font-family: Inter;
+  	color: black;
+  	display: inline-block;
+  	opacity: 0.62;
+  	cursor: pointer;
+}
+
+.no-quieres-ms a {
+	color: #000;
+}
+
+@media (min-width: 400px) {
+.cta {
+  	width: 100%;
+  	position: relative;
+  	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 90%;
+    margin: 0 auto;  
+  	border-radius: 30px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 30px 30px 139px;
+  	box-sizing: border-box;
+  	text-align: center;
+  	font-size: 14.82px;
+  	color: #5d46f7;
+
+}
+
+.fondo {
+  	width: 100%;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 0px;
+  	left: 0px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	justify-content: center;
+}
+.fondo-child {
+  	width: 758px;
+  	height: 1658px;
+  	position: relative;
+  	background: linear-gradient(0deg, #fff, #def2ff 14.9%, #48b9ff 66.83%, #6048ff);
+}
+.fondo-item {
+  	width: 758px;
+  	height: 1308px;
+  	position: relative;
+  	background: linear-gradient(0deg, #fff, #def2ff 14.9%, #48b9ff 56.25%, #6048ff 90.76%, #fff), linear-gradient(0deg, #fff, #def2ff 14.9%, #48b9ff 56.25%, #6048ff 87.02%);
+}
+
+
+
+.lugaracceso {
+  	width: 100%;
+  	position: relative;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 71px 30px 61px;
+  	box-sizing: border-box;
+  	gap: 20px;
+  	text-align: left;
+  	font-size: 16px;
+  	color: #000;
+  	font-family: Inter;
+}
+.plataforma-de-sueos {
+  	width: 109px;
+  	position: relative;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.acceso-mediante-pulsera {
+  	width: 110px;
+  	position: relative;
+  	font-weight: 500;
+  	text-align: right;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+
+
+
+.fecha {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 53px 30px 0px;
+  	gap: 0px;
+    width: 80%;
+  	font-size: 34.3px;
+  margin: 0 auto;     /* centra el contenido horizontalmente */
+}
+}
+
+@media (min-width: 500px) {
+.actividades1 {
+  	width: 100%;
+  	position: relative;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 79px 0px 0px;
+  	box-sizing: border-box;
+  	text-align: center;
+  	font-size: 12.5px;
+  	color: #000;
+
+}
+.actividades-movil {
+  	height: 148px;
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 9px;
+}
+.actividadimg-icon {
+  	align-self: stretch;
+  	flex: 1;
+  	position: relative;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.textoactividad {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 115.34%;
+  	font-weight: 500;
+}
+
+.actividades2 {
+  	width: 100%;
+  	position: relative;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 7px 0px 94px;
+  	box-sizing: border-box;
+  	text-align: center;
+  	font-size: 12.5px;
+  	color: #000;
+
+}
+
+.artista1 {
+  	width: 100%;
+  	position: relative;
+  	display: flex;
+  	align-items: flex-start;
+  	justify-content: space-between;
+  	padding: 47px 0px 0px;
+  	box-sizing: border-box;
+  	gap: 0px;
+	padding: 9px 0px;
+  	text-align: left;
+  	font-size: 12.5px;
+  	color: #fff;
+}
+.artista1-icon {
+  	height: 182px;
+  	width: 301px;
+  	position: relative;
+  	object-fit: cover;
+}
+.textoartistas {
+  	align-self: stretch;
+  	flex: 1;
+  	display: flex;
+	padding: 9px 0px;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 30px;
+}
+.luca-lzuli-creadora {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 115.34%;
+  	font-weight: 500;
+}
+
+.cta {
+  	width: 100%;
+  	position: relative;
+  	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 70%;
+    margin: 0 auto;  
+  	border-radius: 30px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 30px 30px 139px;
+  	box-sizing: border-box;
+  	text-align: center;
+  	font-size: 14.82px;
+  	color: #5d46f7;
+}
+.fondo {
+  	border-radius: 30px;
+  	background-color: #fff;
+  	display: flex;
+  	align-items: center;
+}
+.textocta {
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 2px;
+}
+.explora-el-line-up {
+  	position: relative;
+  	font-weight: 500;
+}
+.flecha {
+  	height: 23.7px;
+  	width: 34px;
+  	position: relative;
+}
+.flecha-child {
+  	position: absolute;
+  	top: 11.8px;
+  	left: 0px;
+  	width: 34px;
+  	height: 11.9px;
+}
+.flecha-item {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 34px;
+  	height: 11.9px;
+}
+
+.fecha {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 53px 30px 0px;
+  	gap: 0px;
+    width: 70%;
+  	font-size: 34.3px;
+  margin: 0 auto;     /* centra el contenido horizontalmente */
+}}
+
